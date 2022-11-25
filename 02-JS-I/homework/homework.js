@@ -60,53 +60,52 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:  
-  si  ( x  ===  y )  {
-    devolver  verdadero ;
-  }  más  {
-    devolver  falso ;
+  si  ( x  ===  y )  ;
+    return  verdadero ;
+  }  suma  {
+    return  falso ;
    }
-  }
+  
  
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  devolver str1 . longitud  ===str2 longitud ; 
+  return str1 . longitud  ===str2 longitud ; 
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-si (numeroRandom < 90 ) {
-  devolverString verdadero ;
+si (numeroRandom < 90 ) ;
+  return verdadero ;
 
 }  mas {
-  devolverString falso ;
-}
+  return falso ;
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  devolverString numeroRandom > 50
+  return numeroRandom > 50
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  devolverString x / y ;
+  return x / y ;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  si( num % 2 === 0){
-    devolverString true ;
+  si( num % 2 === 0);
+    return true ;
   } mas {
-    devolverString false ;
+    return false ;
   }
 }
 
@@ -115,9 +114,9 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   si ( num % 2 === 1){
-    devolverString true ;
+   return true ;
   } mas {
-    devolverString false ;
+    return false ;
   }
 }
 
@@ -125,40 +124,34 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-   devolverString Math . pow ( numero , 2 ) ;
+   return Math . pow ( numero , 2 ) ;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  devolverString Number * Number * Number ;
+ return Number * Number * Number ;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  devolverString Math . pow  (num , exponent) ;
+  return Math . pow  (num , exponent) ;
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var resto = num % 1 ;
-  var entero = num - resto ;
-  si ( resto >= 0.5 ) {
-    devolverString entero + 1 ;
-    } mas { 
-      devolverString entero ;
-    }
-    devolverString Math . redondearNumero 
+return Math.round(num)
+  
   }
 
-}
+
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  Math.ceil (num)
 }
 
 function numeroRandom() {
