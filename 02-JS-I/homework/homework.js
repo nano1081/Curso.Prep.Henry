@@ -62,16 +62,16 @@ function sonIguales(x, y) {
   // Tu código:  
   si  ( x  ===  y )  ;
     return  verdadero ;
-  }  suma  {
+  } {
     return  falso ;
    }
-  
+
  
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1 . longitud  ===str2 longitud ; 
+  return str1 . longitud  === str2 ; 
 }
 
 function menosQueNoventa(num) {
@@ -81,7 +81,8 @@ function menosQueNoventa(num) {
 si (numeroRandom < 90 ) ;
   return verdadero ;
 
-}  mas {
+}  {
+
   return falso ;
 }
 
@@ -104,21 +105,21 @@ function esPar(num) {
   // Tu código:
   si( num % 2 === 0);
     return true ;
-  } mas {
+  }  {
     return false ;
   }
-}
+
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  si ( num % 2 === 1){
+  si ( num % 2 === 1) ;
    return true ;
-  } mas {
+  }  {
     return false ;
   }
-}
+
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
