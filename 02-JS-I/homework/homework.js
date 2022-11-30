@@ -40,7 +40,6 @@ function suma(x, y) {
   
 }
 
-suma(1,2)
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
@@ -48,6 +47,7 @@ function resta(x, y) {
    x - y
   
 }
+
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
