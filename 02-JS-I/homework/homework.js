@@ -36,9 +36,10 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
-  x + y
+  return x + y
   
 }
+
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
@@ -66,9 +67,9 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:  
   si  ( x  ===  y )  ;
-    return  verdadero ;
+    return  true ;
   } {
-    return  falso ;
+    return  false ;
    }
 
  
