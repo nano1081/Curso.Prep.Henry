@@ -1,5 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { default: config } = require("simple-git/src/lib/tasks/config");
+
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = "juan" ;
 
@@ -36,7 +38,7 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
-  return x+y
+  return  x+y
   
 }
 
@@ -104,10 +106,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  si( num % 2 === 0);
-    return true ;
-  }  {
-    return false ;
+  
   }
 
 
