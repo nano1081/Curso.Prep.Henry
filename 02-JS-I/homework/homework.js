@@ -9,7 +9,7 @@ const nuevaString = "juan" ;
 const nuevoNum = 5000 ;
 
 // Crea una variable booleana:
-const nuevoBool = true;
+const nuevoBool = falso;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -41,6 +41,7 @@ function suma(x, y) {
   return  x+y
   
 }
+ 
 
 
 function resta(x, y) {
