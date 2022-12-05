@@ -1,5 +1,6 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { Console } = require("console");
 const { default: config } = require("simple-git/src/lib/tasks/config");
 
 // Crea una variable "string", puede contener lo que quieras:
@@ -38,10 +39,10 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
-    return x+y 
+    Return x+y 
   
   }
-
+ 
 
 
 function resta(x, y) {
@@ -58,6 +59,7 @@ function multiplica(x, y) {
    x * y
   
 }
+
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
